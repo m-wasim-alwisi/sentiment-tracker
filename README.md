@@ -20,7 +20,7 @@ Social Media Sentiment Tracker is a Next.js app that pulls data from Reddit (rea
 
 | Technology    | Purpose                    |
 | ------------- | -------------------------- |
-| Next.js 14    | App framework              |
+| Next.js 15    | App framework              |
 | TypeScript    | Type safety                |
 | Tailwind CSS  | Styling                    |
 | Framer Motion | Animations                 |
@@ -174,19 +174,8 @@ MIT License
 
 ## 📧 Contact
 
-Your Name
-Twitter: @yourtwitter
-Email: [email@example.com](mailto:email@example.com)
+wasimalwisi
+Email: [wasimalwisi@gmail.com](mailto:wasimalwisi@gmail.com)
 
 Project:
-[https://github.com/yourusername/sentiment-tracker](https://github.com/yourusername/sentiment-tracker)
-
----
-
-لو بدك نرفع المستوى أكثر (README احترافي فعلاً)، الخطوة التالية تكون إضافة:
-
-* badges (build, license, version)
-* صور حقيقية للداشبورد
-* demo link
-
-قلّي، وأنا أجهزه لك بشكل جاهز للنشر.
+[https://github.com/m-wasim-alwisi/sentiment-tracker](https://github.com/m-wasim-alwisi/sentiment-tracker)
