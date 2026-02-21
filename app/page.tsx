@@ -10,7 +10,8 @@ import ClientOnly from '@/components/ClientOnly'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Activity, TrendingUp, MessageCircle, RefreshCw } from 'lucide-react'
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3000'
+const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http:///localhost:3000' || 'https://sentiment-tracker-ten.vercel.app/'
+// const API_URL =  'https://sentiment-tracker-ten.vercel.app'
 
 // Define types for sentiment data
 interface PlatformData {
@@ -80,11 +81,16 @@ export default function Home() {
     setError(null)
     
     try {
-      const response = await axios.post<SentimentData>(`${API_URL}/api/analyze`, {
+      const response = await axios.post<SentimentData>(`/api/analyze`, {
         topic: topicName,
         platforms: ['twitter', 'reddit'],
         limit: 50
       })
+      // const response = await axios.post<SentimentData>(`${API_URL}/api/analyze`, {
+      //   topic: topicName,
+      //   platforms: ['twitter', 'reddit'],
+      //   limit: 50
+      // })
       
       setSentimentData(response.data)
       setLastUpdated(new Date())
