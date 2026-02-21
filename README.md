@@ -1,7 +1,3 @@
-النص الحالي جيد، لكن فيه فوضى بالتنسيق وتكرار غير ضروري. هذا إصدار نظيف، واضح، وقابل للاستخدام مباشرة:
-
----
-
 # Social Media Sentiment Tracker
 
 Real-time dashboard analyzes social media sentiment for any topic. Shows whether people are happy or angry using clean, interactive visuals.
